@@ -1,5 +1,7 @@
 #!/bin/bash
 # 超微服务器IPMI控制脚本
+# 作者：muzihuaner
+# https://github.com/muzihuaner/SupermicroController
 # 用法：./supermicro_ctl.sh <operation> [ip] [user] [pass]
 
 # 默认配置（根据实际情况修改）
