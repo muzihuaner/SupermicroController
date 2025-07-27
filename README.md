@@ -29,7 +29,7 @@ chmod +x supermicro_ctl.sh
 # 重启（硬重启）
 ./supermicro_ctl.sh reboot
 
-# 点亮UID灯（蓝色常亮）
+# 点亮UID灯
 ./supermicro_ctl.sh uid
 
 # 关闭UID灯
