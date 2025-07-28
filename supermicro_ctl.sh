@@ -48,7 +48,7 @@ case $OPERATION in
         echo "✅ 已发送关机指令"
         ;;
     reboot|重启)
-        ipmitool -I lanplus -H $IP -U $USER -P $PASS power cycle
+        ipmitool -I lanplus -H $IP -U $USER -P $PASS power reset
         echo "✅ 已发送重启指令"
         ;;
     uid|点亮)
